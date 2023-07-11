@@ -2,7 +2,39 @@
     margin:0;
     padding:0;
 }
-
+body {
+    font-family: font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: rgba(229, 84, 115,0.10);
+    height: 850px;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px 0px 240px;
+}
+.header-title{
+    color: #272727;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-paragraph{
+    color: rgba(39, 39, 39,0.60);
+    margin-bottom: 15px;
+}
+.header-left  .header-right{
+    width: 1000px;
+}
+.header-left{
+    max-width: 750px;
+}
 .btn{
     padding: 10px;
     color: #ffff;
