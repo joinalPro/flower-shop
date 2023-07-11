@@ -50,7 +50,7 @@ body {
     max-width: 750px;
 }
 .btn{
-    padding: 10px;
+    padding: 10px 20px;
     color: #fff ;
     background-color: #E55473;
     border: 0;
@@ -60,39 +60,56 @@ body {
 /* Featured Section started here */
 .featured-container{
     margin: 0px 240px;
+    /* height: 550px; */
 }
 
 main {
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .featured-flowers{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 24px;
     
 }
+#flower-one{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+}
+#flower-two{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+#flower-three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
 .flowers{
-    padding: 50px;
-    /* background-color: #E55473; */
-    /* border: 1px solid black; */
-    width: 200px;
-    height: 220px;
-    margin-top: 30px;
+  text-align:center;
+
 }
 
 .img-size {
-    width: 180px;
+    padding-top: 110px;
+    width: 370px;
+    height: 428px;
+
 }
 .flower-para{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 160px;
     margin-top: 30px;
 }
 .flower-link{  
     color: #272727;
-    /* text-align: center; */
     font-size: 16px;
     /* font-style: normal; */
     font-weight: 700;
@@ -104,13 +121,15 @@ main {
 .hot-deal-container{
     background: rgba(229, 84, 115, 0.05);
     height: 400px;
-   text-align: center;
-   margin-top: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;        
 }
 .hot-deal {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .off{
     color: #E55473;
@@ -119,6 +138,10 @@ main {
     max-width: 600px;
     text-align: center;
 }
+.hot-deal-right{
+    width: 500px;
+}
+
 .hot-img{
     width: 200px;
     margin-top: 50px;
@@ -127,6 +150,7 @@ main {
 
 .instgram-container{
     margin: 30px 240px;
+    height: 500px;
 }
 .instagram{
     display: flex;
@@ -135,13 +159,14 @@ main {
 
 }
 .small-flowers{
-    padding: 20px 5px;
-    width: 200px;
+    padding: 20px 10px;
+    /* width: 200px; */
     height: 150px;
     /* margin-top: 30px; */
 }
 .small-img{
-    width: 100%;
+    /* width: 100%; */
+    margin: auto;
 }
 
 .latest-deals-container{
@@ -152,10 +177,40 @@ main {
     background-image: url("../images/Rectangle\ 9.png");
     background-repeat: no-repeat;
     text-align: center;
-    height: 500px;
-    padding-top: 100px;
+    height: 350px;
+    padding-top: 140px;
 }
 .email-form{
     padding: 10px;
     margin: 5px 10px;
+    border: 0px;
+}
+
+footer{
+    text-align: center;
+    background-color: #111010;
+    height: 400px;
+    padding-top: 150px;
+}
+.footer-title{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+    }
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;    
+    font-size: 12px;
+    font-weight: 400;
+    /* font-style: normal; */
+    /* line-height: normal; */
 }
