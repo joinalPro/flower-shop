@@ -3,13 +3,27 @@
     padding:0;
 }
 body {
-    font-family: font-family: 'Manrope', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-}
+    font-family: 'Manrope', sans-serif;
+    }
+.section-title{
+
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    
+    }
+    .section-description{
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 16px;    
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
 .header{
     background-color: rgba(229, 84, 115,0.10);
     height: 850px;
-    
 }
 .banner{
     display: flex;
@@ -37,8 +51,111 @@ body {
 }
 .btn{
     padding: 10px;
-    color: #ffff;
-    background-color: indianred;
+    color: #fff ;
+    background-color: #E55473;
     border: 0;
+    border-radius: 3px;
 
+}
+/* Featured Section started here */
+.featured-container{
+    margin: 0px 240px;
+}
+
+main {
+    margin-top: 130px;
+}
+.featured-flowers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.flowers{
+    padding: 50px;
+    /* background-color: #E55473; */
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 220px;
+    margin-top: 30px;
+}
+
+.img-size {
+    width: 180px;
+}
+.flower-para{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 30px;
+}
+.flower-link{  
+    color: #272727;
+    /* text-align: center; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: 35px; */
+    text-decoration-line: underline;
+
+}
+/* hot deal container styels started */
+.hot-deal-container{
+    background: rgba(229, 84, 115, 0.05);
+    height: 400px;
+   text-align: center;
+   margin-top: 50px;
+}
+.hot-deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.off{
+    color: #E55473;
+}
+.hot-deal-left{
+    max-width: 600px;
+    text-align: center;
+}
+.hot-img{
+    width: 200px;
+    margin-top: 50px;
+}
+/* instragam section started here */
+
+.instgram-container{
+    margin: 30px 240px;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    /* gap: 2px; */
+
+}
+.small-flowers{
+    padding: 20px 5px;
+    width: 200px;
+    height: 150px;
+    /* margin-top: 30px; */
+}
+.small-img{
+    width: 100%;
+}
+
+.latest-deals-container{
+    margin: 100px  240px;
+    
+}
+.latest-deals{
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+}
+.email-form{
+    padding: 10px;
+    margin: 5px 10px;
 }
