@@ -229,3 +229,56 @@ footer{
 .image-space{
     margin-bottom: 10px;
 }
+
+/* Adding extra styels - Latest Post */
+
+.from-blog{
+
+    margin: 100px 0px 20px 0px;
+    color: #e77b7b;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 400;    
+}
+.latest-post-container{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin: 100px  240px;
+    padding: 20px;
+}
+.lp-img-size{
+    width: 450px;
+    height: 300px;
+    align-items: center;
+
+}
+.latest-post{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 5px 15px 20px 5px rgba(172, 135, 135, 0.06);
+}
+.latest-title{
+    margin: 10px 0px 10px 0px;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 400; 
+}
+.author-post{
+    margin: 10px 0px 10px 0px;
+    color: #272727;
+    font-size: 15px;
+    font-weight: 400; 
+}
+.lp-description{
+    color: rgba(39, 39, 39, 0.60);
+        font-size: 16px;    
+        font-weight: 400;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+.lp-text-area{
+    padding: 20px;
+}
